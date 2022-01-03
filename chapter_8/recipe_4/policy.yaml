@@ -1,0 +1,28 @@
+osPolicies:
+  - id: install-stackdriver-agent
+    mode: ENFORCEMENT
+    resourceGroups:
+      - inventoryFilters:
+          - osShortName: debian
+        resources:
+          - id: setup-repo
+            repository:
+              apt:
+                archiveType: DEB
+                uri: https://packages.cloud.google.com/apt
+                distribution: google-cloud-monitoring-buster-all
+                components:
+                  - main
+                gpgKey: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+          - id: install-pkg
+            pkg:
+              desiredState: INSTALLED
+              apt:
+                name: stackdriver-agent
+instanceFilter:
+  inventories:
+    - osShortName: debian
+rollout:
+  disruptionBudget:
+    fixed: 10
+  minWaitDuration: 300s

@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+azure-functions = "==1.7.2"
+azure-mgmt-policyinsights = "==1.0.0"
+azure-identity = "==1.7.0"
+azure-mgmt-resource = "==20.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

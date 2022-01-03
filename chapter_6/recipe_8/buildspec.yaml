@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - |
+        if [ $CODEBUILD_SOURCE_VERSION != "main" ]; then
+          terraform init
+          terraform plan -no-color
+        fi
+      - |
+        if [ $CODEBUILD_SOURCE_VERSION == "main" ]; then
+          terraform init
+          terraform apply -no-color -auto-approve
+        fi

@@ -1,0 +1,75 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/hashicorp/azuread" {
+  version = "2.0.1"
+  hashes = [
+    "h1:C9iv0cjLBaYJH/6c8hHu1RkuYUJU+FVad2fFaZC9Os4=",
+    "zh:045a5f5450eaf707b1a2c05188fa914f0364420da9d58c0bd29abc2985b838a8",
+    "zh:0aaf1bf334a55953289f0aead9cfaa2aaf37ffa7c4b6ca229d14918f18d006f9",
+    "zh:17914f4b85a18337e8e5acd644bd10c3e4309138983a9809e7a72bcc767835ff",
+    "zh:194dca0bdb636ce4289f5ff015623535898bdac26403a03649645cd4194b54ee",
+    "zh:53e1491141f23de8400092b5e17bf6e3ee8096dae6b58af2f8ca580337e31898",
+    "zh:656c729307e41f2f98bf5db634b74929d372189ff6dcb00e7d3370a7a36f3bd6",
+    "zh:7b8689cf5c4440ff0e21db9f9633478d50d220514fa9cd413ac2b7c93c7038e2",
+    "zh:cecd2259c04797297868236055d0f5808794677c43fe0c1e11d30f89f539b362",
+    "zh:da2a93d14318d9cace06aad77a0069ee0a0adb9e8337dac85434953db74dfa04",
+    "zh:eb127f8d11fc24f7070c14b6665f08bafd30e4038c1e4f5582a155f53ec795f6",
+    "zh:f99c245c80c5c4c418ef6f7b219482e56c714db65f970083bb287104a333e405",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/azurerm" {
+  version     = "2.74.0"
+  constraints = "2.74.0"
+  hashes = [
+    "h1:mVJLx0z3IFBM94jJPbzXajRyhh5xUHtuflp/Xtue104=",
+    "zh:39770dfaaa2281ed0c8e620b9013ef96d45bc88a12ffff9df470b2da7c6f41df",
+    "zh:487d6920d1bc28cfda310dff43e0038e6621409b8746ca1d2937c177743d6194",
+    "zh:6b7f8224c63689e62e0178c7cf9fb21374ae840d646fe065c0b61902c77448df",
+    "zh:9e4810b85438905e417da01814dc2203a0e904d74b89f1d0330869ab71f88eaf",
+    "zh:ab09186cc1b7d4d92d0d85cd9f77dfb9d7b98992badb433156e5bf179c508bcd",
+    "zh:b9f11c240b05cfdd8b10da35848f269c16a8a0a2e6dfaaaf3982c6f4d9591266",
+    "zh:be35031ede79f8ab10fca9448def6b12ac1a81a748b1607f28345e7c341a9ad6",
+    "zh:caeaf6c93120df4f461d75d9f00c4ea493b3cd910e5d426dca34f74a27d36474",
+    "zh:d5e5eeafb61e8bb710f9f364a0352e38d783ca4584968bd0311a647bad9e84c1",
+    "zh:deda32842c89c5999148bfa045e0f9b0a17e7bd618c22ceb9dadb79f88d8c1f0",
+    "zh:ec7a4960b9960cd917fd727c9805afd23a48c5c6f5263701f8ef72f1107ed657",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/local" {
+  version = "2.1.0"
+  hashes = [
+    "h1:KfieWtVyGWwplSoLIB5usKAUnrIkDQBkWaR5TI+4WYg=",
+    "zh:0f1ec65101fa35050978d483d6e8916664b7556800348456ff3d09454ac1eae2",
+    "zh:36e42ac19f5d68467aacf07e6adcf83c7486f2e5b5f4339e9671f68525fc87ab",
+    "zh:6db9db2a1819e77b1642ec3b5e95042b202aee8151a0256d289f2e141bf3ceb3",
+    "zh:719dfd97bb9ddce99f7d741260b8ece2682b363735c764cac83303f02386075a",
+    "zh:7598bb86e0378fd97eaa04638c1a4c75f960f62f69d3662e6d80ffa5a89847fe",
+    "zh:ad0a188b52517fec9eca393f1e2c9daea362b33ae2eb38a857b6b09949a727c1",
+    "zh:c46846c8df66a13fee6eff7dc5d528a7f868ae0dcf92d79deaac73cc297ed20c",
+    "zh:dc1a20a2eec12095d04bf6da5321f535351a594a636912361db20eb2a707ccc4",
+    "zh:e57ab4771a9d999401f6badd8b018558357d3cbdf3d33cc0c4f83e818ca8e94b",
+    "zh:ebdcde208072b4b0f8d305ebf2bfdc62c926e0717599dcf8ec2fd8c5845031c3",
+    "zh:ef34c52b68933bedd0868a13ccfd59ff1c820f299760b3c02e008dc95e2ece91",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/null" {
+  version = "3.1.0"
+  hashes = [
+    "h1:xhbHC6in3nQryvTQBWKxebi3inG5OCgHgc4fRxL0ymc=",
+    "zh:02a1675fd8de126a00460942aaae242e65ca3380b5bb192e8773ef3da9073fd2",
+    "zh:53e30545ff8926a8e30ad30648991ca8b93b6fa496272cd23b26763c8ee84515",
+    "zh:5f9200bf708913621d0f6514179d89700e9aa3097c77dac730e8ba6e5901d521",
+    "zh:9ebf4d9704faba06b3ec7242c773c0fbfe12d62db7d00356d4f55385fc69bfb2",
+    "zh:a6576c81adc70326e4e1c999c04ad9ca37113a6e925aefab4765e5a5198efa7e",
+    "zh:a8a42d13346347aff6c63a37cda9b2c6aa5cc384a55b2fe6d6adfa390e609c53",
+    "zh:c797744d08a5307d50210e0454f91ca4d1c7621c68740441cf4579390452321d",
+    "zh:cecb6a304046df34c11229f20a80b24b1603960b794d68361a67c5efe58e62b8",
+    "zh:e1371aa1e502000d9974cfaff5be4cfa02f47b17400005a16f14d2ef30dc2a70",
+    "zh:fc39cc1fe71234a0b0369d5c5c7f876c71b956d23d7d6f518289737a001ba69b",
+    "zh:fea4227271ebf7d9e2b61b89ce2328c7262acd9fd190e1fd6d15a591abfa848e",
+  ]
+}
